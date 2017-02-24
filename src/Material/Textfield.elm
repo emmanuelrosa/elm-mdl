@@ -470,6 +470,7 @@ react =
       , Textfield.value model.age
       , Options.onInput (String.toInt >> ChangeAgeMsg)
       ]
+      []
 
 Be aware that styling (third argument) is applied to the outermost element
 of the textfield's implementation, and so is mostly useful for positioning
